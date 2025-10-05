@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "description": "rent-easy backend",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon server.js"
   },
   "author": "aks mithun",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.0"
+  }
 }
